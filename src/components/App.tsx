@@ -79,6 +79,7 @@ const ErrorMessage = styled.p`
 
 const web3auth = new Web3AuthNoModal({
   chainConfig: {
+    web3AuthNetwork: "cyan",
     chainNamespace: CHAIN_NAMESPACES.EIP155,
     chainId: process.env.NEXT_PUBLIC_WEB3AUTH_CHAIN_ID_HEX,
   },
